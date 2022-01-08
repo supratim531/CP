@@ -8,7 +8,7 @@ _(Best Competitive Coding setup for Windows)_
 
 Build system to directly compile and run c++ programs in sublime on windows
 
-_Instructions:_
+**Instructions:
 
 1. At first download & install Sublime Text for windows
 1. Open sublime > Go to Tools > Build Systems > New Build System
