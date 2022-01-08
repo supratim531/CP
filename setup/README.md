@@ -1,6 +1,6 @@
 # Competitive-Programming
 
-## Template.cpp:
+## Temp.cpp:
 write fast code and easy debugging in CP environment
 
 ## cpp14_windows.sublime-build (FOR WINDOWS):
