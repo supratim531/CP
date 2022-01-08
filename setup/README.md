@@ -26,7 +26,7 @@ _Tips:_
 
 **To check the gcc / g++ version. run the following command in your cmd:**
 ```
-gcc --version || g++ --version
+g++ --version || gcc --version
 ```
 >Keep smiling and work harder...
 ***
