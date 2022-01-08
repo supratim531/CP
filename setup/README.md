@@ -22,9 +22,9 @@ _Tips:_
 - You can use 3 pane setup to write code, input file and output file at once ALT + SHIFT + 3
 ***
 
-## Make sure that you have installed gcc/g++ in your (windows) system
+## Make sure that you have installed gcc / g++ in your (windows) system
 
-**To check the gcc/g++ version. run the following command in your cmd:**
+**To check the gcc / g++ version. run the following command in your cmd:**
 ```
 gcc --version || g++ --version
 ```
