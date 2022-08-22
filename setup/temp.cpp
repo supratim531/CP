@@ -61,6 +61,6 @@ fast
     /* sometime brute force helps to think */
     int t = 1;
     // cin >> t;
-    while (t-- > 0) run_case();
+    while (t --> 0) run_case();
     return 0;
 }
