@@ -12,10 +12,10 @@ Build system to directly compile and run c++ programs in sublime on windows
 
 1. At first download & install Sublime Text for windows
 1. Open sublime > Go to Tools > Build Systems > New Build System
-1. Copy the code from cpp14_windows.sublime-build and paste it there and save it by (c++14.sublime-build) any name
-1. Go to Tools > Build System and select your new build system
+1. Copy the code from cpp14_windows.sublime-build and paste it there and save it by (Recommended: c++14.sublime-build) any_name.sublime-build
+1. Go to Tools > Build System and select your new build system (You can see the name by which you saved in line number 3)
 1. Create 2 files named inputf.in and outputf.in in same directory in which u have ur code
-1. Write input in inputf.in, save and run the code in sublime and you will get output in outputf.in
+1. Write input in inputf.in, save and run the code in sublime and you will get output in outputf.in (See the 2nd point in the Tips section)
 
 **_Tips:_**
 
