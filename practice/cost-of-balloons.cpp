@@ -1,4 +1,4 @@
-// https://www.hackerearth.com/problem/algorithm/city-tour/
+// https://www.hackerearth.com/practice/basic-programming/input-output/basics-of-input-output/practice-problems/algorithm/mojtaba-prepares-contest-29b2a044/
 
 #include <bits/stdc++.h>
 using namespace std;
@@ -13,6 +13,7 @@ void run_case() {
 		cin >> a >> b;
 		p1 += a, p2 += b;
 	}
+	
 	int64_t min_price = min(b1, b2);
 	int64_t max_price = (b1 + b2) - min_price;
 
