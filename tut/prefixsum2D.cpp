@@ -32,7 +32,7 @@ int main() {
 	while (q --> 0) {
 		int a, b, c, d;
 		cin >> a >> b >> c >> d;
-		int64_t sum = pf[c][d] - pf[a - 1][d] - pf[c][b - 1];
+		int64_t sum = pf[c][d] - pf[a - 1][d] - pf[c][b - 1] + pf[a - 1][b - 1];
 		cout << sum << '\n';
 	}
 	return 0;
@@ -43,12 +43,16 @@ int main() {
 3 6 2
 8 9 2
 3 4 1
-4
+5
 1 1 2 2
 1 2 3 3
 1 2 2 3
 2 1 3 3
+2 2 3 3
 -------
 26
 24
+19
+27
+16
 */
