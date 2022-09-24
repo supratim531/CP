@@ -4,25 +4,19 @@
 using namespace std;
 
 long maximumSumSubarray(int K, vector<int> &Arr, int N) {
-    // code here
-    long sum;
-
-    vector<long> h;
-
-    for (auto &ele : Arr)
-    	h.push_back(ele);
-
-    for (int i = 1; i < N; ++i)
-        h[i] += h[i - 1];
-
-    for (int i = 0; i <= N - K; ++i) {
-        if (i == 0)
-            sum = h[K - 1];
-        else {
-            sum = max(sum, (h[i + K - 1] - h[i - 1]));
-        }
-    }
-    return sum;
+	long sum = -1;
+	vector<long> Arr2(N);
+	for (int i = 0; i < N; ++i)
+		Arr2[i] = Arr[i];
+	for (int i = 1; i < N; ++i)
+		Arr2[i] += Arr2[i - 1];
+	for (int i = K - 1; i < N; ++i) {
+		if (i == (K - 1))
+			sum = max(sum, Arr2[i]);
+		else
+			sum = max(sum, (Arr2[i] - Arr2[i - K]));
+	}
+	return sum;
 }
 
 void run_case() {
