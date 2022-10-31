@@ -76,5 +76,11 @@ int main() {
 		m4.erase(m4.find('F')); // -> TC: O(log2(n))
 	print(m4);
 
+	cout << "\n-------\n";
+	// auto eit = m4.erase('a');
+	// cout << eit << '\n';
+	auto eit = m4.erase(m4.find('a'));
+	// cout << eit << '\n';
+	cout << eit->first << ' ' << eit->second << '\n';
 	return 0;
 }
